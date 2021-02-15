@@ -1,0 +1,212 @@
+body{
+    background-color: rgb(243, 232, 232);
+   
+}
+.logo_navLink{
+    width: 102%;
+    left: -19px;
+   
+    height:100px;
+    background-color: black;
+    position: fixed;
+    bottom: 530px;
+    z-index: 1;
+}
+#logoImage{
+    width: 200px;
+    height: auto;
+    right:30px;
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+    
+}
+a:hover{
+    background-color: rgb(243, 232, 232);
+    border-radius: 30px;
+}
+.navs{
+    position: relative;
+    float: right;
+    top: 45px;
+    font-size: 22px;
+    right:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.news{
+    display: flex;
+    background-color: rgb(231, 223, 212);
+    width: 49%;
+    height: auto;
+    border-radius: 5px;    
+    margin: 10px;
+ 
+}
+
+.player{
+   width: 200px;
+   height: auto;
+   border-radius: 5px;
+}
+#player-news{
+    width:auto;
+    height:100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+hr{
+    width: 50%;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+.textDetails{
+    padding:12px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.verticle-line {
+    width: 2px;
+    min-height: 20px;
+    background: red;
+    left: 20px;
+    position: relative;
+    top: 130px;
+  }
+  .feature{
+      top: 92px;
+      left: 10px;
+      position: relative;
+      padding-left: 20px;
+      font-size: 18px;
+  }
+  .btn-readmore{
+        position: relative;
+        left: 210px;
+        top:50px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: black;
+        color:white;
+  }
+  #playersContainer{
+      width: auto;
+      display: flex;
+      position: relative;
+      top: 100px;
+     
+  }
+  #lewandoski{
+      width: 900px;
+  }
+  #btn-one{
+    position: relative;
+    left: 190px;
+    top: 45px;
+  }
+  button:hover{
+      cursor:pointer;
+  }
+
+  #btn-2{
+      margin-top: -32px;
+      position: relative;
+  }
+  #feat{
+   top: 65px;
+  }
+  #line{
+      top:102px;
+  }
+  .video{
+    width: 500px;
+    margin: auto;
+    height: auto;
+ }
+ #vid-Container{
+    text-align: center;
+    height: auto;
+    background-color: rgb(240, 231, 232);
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+#Text-h1{
+    color:rgb(221, 34, 34);
+}
+video:focus{
+    outline-color:rgb(255, 221, 221);
+}
+
+.shopNow{
+    display: flex;
+    width: 102%;
+    left: -19px;
+    bottom: 10px;
+    background-color: rgb(224, 72, 72);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    
+}
+.cards{
+    align-items: center;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin:auto;
+}
+
+#Footer{
+     width: 101.4%;
+     height: 150px;
+    left: -19px;
+    color: white;
+    background-color: rgb(27, 25, 25);
+    position: absolute;
+    top:1850px;
+    box-sizing: border-box;
+}
+.Items{
+    border-radius: 15px;
+    width: 200px;
+    position: relative;
+    left: 60px;
+}
+.btn-items{
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(243, 229, 229);
+    color: rgb(82, 79, 79);
+    position: relative;
+    left: 200px;
+    outline-style: none;
+    bottom: 40px;
+    border-style:double;
+    border-color: rgb(158, 158, 158);
+    font-weight: bold;
+}
+.item-text{
+    padding: 20px;
+    font-size: 18px;
+}
+
+#copyright{
+    left :200px;
+    top: 100px;
+    width: 150px;
+    position: relative;
+    
+}
